@@ -1,7 +1,5 @@
 local M = {}
 
-M.namespace = vim.api.nvim_create_namespace("Trak")
-
 local defaults = {}
 
 M.options = {}
