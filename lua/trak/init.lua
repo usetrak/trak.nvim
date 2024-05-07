@@ -32,7 +32,7 @@ local function bind_command()
   )
   vim.api.nvim_create_user_command(
     "TrakReportProject",
-    trak.report(),
+    trak.report(""),
     { desc = "Show the report for a project.", nargs = "*" }
   )
   vim.api.nvim_create_user_command(
